@@ -1,0 +1,23 @@
+[
+    {
+    "frase":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "nombre":"Ivan Diaz Rosso",
+    "subtitulo":"Ingeniero en Sistemas",
+    "twitter":"@IvanArturoDiazr",
+    "url":"https://firebasestorage.googleapis.com/v0/b/angular-html-6e141.appspot.com/o/team-1.jpg?alt=media&token=87da4dc7-9343-4bac-a2f3-1440b1cd2a86"
+    },
+    {
+    "frase":"Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+    "nombre":"Yamile Romero",
+    "subtitulo":"Psicóloga",
+    "twitter":"@yamileromero1",
+    "url":"https://firebasestorage.googleapis.com/v0/b/angular-html-6e141.appspot.com/o/team-2.jpg?alt=media&token=63e14dcf-bead-4f4e-83ec-9dd1f3ab46cb"
+    },
+    {
+    "frase":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "nombre":"Geovanny Mendoza",
+    "subtitulo":"Especialista en desarrollo de software",
+    "twitter":"@geovannymendoza1",
+    "url":"https://firebasestorage.googleapis.com/v0/b/angular-html-6e141.appspot.com/o/team-3.jpg?alt=media&token=c5c59cdf-6880-4da4-8ca1-1a18e6235b46"
+    }
+    ]
