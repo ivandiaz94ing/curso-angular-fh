@@ -1,14 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { InfoPagina } from '../interfaces/info-pagina.interface';
-import { InfoEquipo } from '../interfaces/equipo-pagina.interface';
 
 @Injectable({
   providedIn: 'root',
 })
 export class InfopaginaService {
   info: InfoPagina = {};
-  equipo: InfoEquipo = {};
+  equipo: any = {};
   cargada = false;
 
   constructor(private http: HttpClient) {
@@ -27,15 +26,14 @@ export class InfopaginaService {
       .subscribe((resp: InfoPagina) => {
         this.cargada = true;
         this.info = resp;
-        console.log(resp);
       });
   
 
   }
 
   private cargarequipo(){
-    this.http.get('assets/data/data-equipo.json')
-    .subscribe((res: InfoEquipo) => {
+    this.http.get('https://angular-html-6e141-default-rtdb.firebaseio.com/Equipo.json')
+    .subscribe((res: any) => {
       this.equipo = res;
       console.log(res);
     
