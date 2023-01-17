@@ -9,6 +9,7 @@ export class InfopaginaService {
   info: InfoPagina = {};
   equipo: any = {};
   cargada = false;
+  
 
   constructor(private http: HttpClient) {
     // console.log('Servicio de la infopagina listo');
@@ -35,7 +36,7 @@ export class InfopaginaService {
     this.http.get('https://angular-html-6e141-default-rtdb.firebaseio.com/Equipo.json')
     .subscribe((res: any) => {
       this.equipo = res;
-      console.log(res);
+      //console.log(res);
     
     });
   }
